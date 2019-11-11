@@ -43,10 +43,10 @@
   "main": "./server/index.js",
   "devDependencies": {
     "@testing-library/react": "^9.3.2"
+  },
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "<rootDir>/src/__tests__/__data__"
+    ]
   }
-},
-"jest": {
-  "watchPathIgnorePatterns": [
-    "<rootDir>/src/__tests__/__data__"
-  ]
 }
